@@ -1,0 +1,422 @@
+{
+	"pages": [ {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "首页"
+		}
+	},{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+	, {
+		"path": "pages/news-detail/news-detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区公告详情"
+		}
+	}
+	,{
+		"path": "pages/jumin/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/jumin/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/jumin/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/xiangmuleixing/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/xiangmuleixing/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/xiangmuleixing/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/huodongleixing/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/huodongleixing/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/huodongleixing/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/yulexiangmu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/yulexiangmu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/yulexiangmu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/shequhuodong/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/shequhuodong/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/shequhuodong/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/baomingshenqing/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/baomingshenqing/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/baomingshenqing/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/canyuxinxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/canyuxinxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/canyuxinxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/forumtype/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/forumtype/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/forumtype/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/forumreport/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/forumreport/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/forumreport/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/newstype/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/newstype/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/newstype/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/news/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/news/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/storeup/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/storeup/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/storeup/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/discussyulexiangmu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/discussyulexiangmu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/discussyulexiangmu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	}
+	,{
+		"path": "pages/discussshequhuodong/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	},{
+		"path": "pages/discussshequhuodong/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/discussshequhuodong/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+		}
+	}
+    , {
+		"path": "pages/forum-index/forum-index",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区互动"
+		}
+	}, {
+		"path": "pages/forum-detail/forum-detail",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "社区互动发帖详情"
+		}
+	}, {
+		"path": "pages/forum-reply/forum-reply",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "回复评论"
+		}
+	}, {
+		"path": "pages/forum-list/list",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的发布"
+		}
+	}, {
+		"path": "pages/forum-my/forum-my",
+		"style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white",
+			"navigationBarTitleText": "我的发布"
+		}
+	}, {
+		"path": "pages/forum-add-or-update/forum-add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#E9E9E9",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "我的发布"
+		}
+	}
+    ,{
+        "path": "common/linkOthers/linkOthers",
+        "style": {
+			"navigationBarBackgroundColor": "#5051B5",
+			"navigationBarTextStyle": "white"
+        }
+    }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "基于微信小程序的智慧社区娱乐服务管理平台",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#CBCBCB",
+		"selectedColor": "#5051B5",
+		"borderStyle": "white",
+		"backgroundColor": "#E2E2E2",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			
+
+
+			,{
+			 	"pagePath": "pages/news/list",
+				"iconPath": "static/tabs/news.png",
+			 	"selectedIconPath": "static/tabs/news_act.png",
+				"text": "社区公告"
+			}
+
+
+			,{
+			 	"pagePath": "pages/forum-index/forum-index",
+				"iconPath": "static/tabs/forum.png",
+			 	"selectedIconPath": "static/tabs/forum_act.png",
+				"text": "社区互动"
+			}
+
+
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}

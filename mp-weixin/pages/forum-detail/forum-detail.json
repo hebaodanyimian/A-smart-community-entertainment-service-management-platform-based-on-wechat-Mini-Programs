@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#5051B5",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "社区互动发帖详情",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "user-reply": "/components/forum-reply/forum-reply"
+  }
+}

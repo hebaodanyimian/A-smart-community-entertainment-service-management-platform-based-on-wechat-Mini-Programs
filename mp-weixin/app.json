@@ -1,0 +1,115 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/jumin/list",
+    "pages/jumin/add-or-update",
+    "pages/jumin/detail",
+    "pages/xiangmuleixing/list",
+    "pages/xiangmuleixing/add-or-update",
+    "pages/xiangmuleixing/detail",
+    "pages/huodongleixing/list",
+    "pages/huodongleixing/add-or-update",
+    "pages/huodongleixing/detail",
+    "pages/yulexiangmu/list",
+    "pages/yulexiangmu/add-or-update",
+    "pages/yulexiangmu/detail",
+    "pages/shequhuodong/list",
+    "pages/shequhuodong/add-or-update",
+    "pages/shequhuodong/detail",
+    "pages/baomingshenqing/list",
+    "pages/baomingshenqing/add-or-update",
+    "pages/baomingshenqing/detail",
+    "pages/canyuxinxi/list",
+    "pages/canyuxinxi/add-or-update",
+    "pages/canyuxinxi/detail",
+    "pages/forumtype/list",
+    "pages/forumtype/add-or-update",
+    "pages/forumtype/detail",
+    "pages/forumreport/list",
+    "pages/forumreport/add-or-update",
+    "pages/forumreport/detail",
+    "pages/newstype/list",
+    "pages/newstype/add-or-update",
+    "pages/newstype/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/discussyulexiangmu/list",
+    "pages/discussyulexiangmu/add-or-update",
+    "pages/discussyulexiangmu/detail",
+    "pages/discussshequhuodong/list",
+    "pages/discussshequhuodong/add-or-update",
+    "pages/discussshequhuodong/detail",
+    "pages/forum-index/forum-index",
+    "pages/forum-detail/forum-detail",
+    "pages/forum-reply/forum-reply",
+    "pages/forum-list/list",
+    "pages/forum-my/forum-my",
+    "pages/forum-add-or-update/forum-add-or-update",
+    "common/linkOthers/linkOthers"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于微信小程序的智慧社区娱乐服务管理平台",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#CBCBCB",
+    "selectedColor": "#5051B5",
+    "borderStyle": "white",
+    "backgroundColor": "#E2E2E2",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/news/list",
+        "iconPath": "static/tabs/news.png",
+        "selectedIconPath": "static/tabs/news_act.png",
+        "text": "社区公告"
+      },
+      {
+        "pagePath": "pages/forum-index/forum-index",
+        "iconPath": "static/tabs/forum.png",
+        "selectedIconPath": "static/tabs/forum_act.png",
+        "text": "社区互动"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "z-swiper-item": "/components/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "/components/zebra-swiper/components/z-swiper/z-swiper",
+    "music-play": "/components/musicPlay/musicPlay"
+  }
+}

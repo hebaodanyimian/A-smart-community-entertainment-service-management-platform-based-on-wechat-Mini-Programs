@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.BaomingshenqingDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.entity.BaomingshenqingEntity" id="baomingshenqingMap">
+        <result property="baomingbianhao" column="baomingbianhao"/>
+        <result property="huodongmingcheng" column="huodongmingcheng"/>
+        <result property="huodongleixing" column="huodongleixing"/>
+        <result property="huodongfengmian" column="huodongfengmian"/>
+        <result property="shijian" column="shijian"/>
+        <result property="didian" column="didian"/>
+        <result property="baomingrenshu" column="baomingrenshu"/>
+        <result property="zhanghao" column="zhanghao"/>
+        <result property="xingming" column="xingming"/>
+        <result property="canyuzhanghao" column="canyuzhanghao"/>
+        <result property="canyuxingming" column="canyuxingming"/>
+        <result property="xingbie" column="xingbie"/>
+        <result property="nianling" column="nianling"/>
+        <result property="baomingshijian" column="baomingshijian"/>
+        <result property="baomingbeizhu" column="baomingbeizhu"/>
+        <result property="crossuserid" column="crossuserid"/>
+        <result property="crossrefid" column="crossrefid"/>
+        <result property="sfsh" column="sfsh"/>
+        <result property="shhf" column="shhf"/>
+    </resultMap>
+
+	<select id="selectListVO"
+		resultType="com.entity.vo.BaomingshenqingVO" >
+		SELECT * FROM baomingshenqing  baomingshenqing         
+        <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectVO"
+		resultType="com.entity.vo.BaomingshenqingVO" >
+		SELECT  baomingshenqing.* FROM baomingshenqing  baomingshenqing 	
+ 		<where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+
+    <select id="selectListView"
+		resultType="com.entity.view.BaomingshenqingView" >
+
+		SELECT  baomingshenqing.* FROM baomingshenqing  baomingshenqing 	        
+        <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectView"
+		resultType="com.entity.view.BaomingshenqingView" >
+		SELECT * FROM baomingshenqing  baomingshenqing <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+
+
+</mapper>
